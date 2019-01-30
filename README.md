@@ -1,24 +1,36 @@
-# README
+Hello la correction, bienvenue dans ce petit repo, el famoso Ruby on Rails;
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Le principe de l'exercice est simple :
 
-Things you may want to cover:
+Tu veux faire de la concurrence à Pinterest, donc tu voudrais créer un site où les utilisateurs peuvent créer des "pins". Chaque pin contient l'URL d'une image sur le net. Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires.
 
-* Ruby version
+Pour faire fonctionner tout ça rien de bien compliqué : 
+~~~~~~~~~~~~~~~~~~~~
+$ bundle install
 
-* System dependencies
+$ rails db:migrate
 
-* Configuration
+$ rails db:seed
 
-* Database creation
+$ rails c
 
-* Database initialization
+$ tp User.all
 
-* How to run the test suite
+$ tp Pin.all
 
-* Services (job queues, cache servers, search engines, etc.)
+$ tp Comment.all
 
-* Deployment instructions
+~~~~~~~~~~~~~~~~~~~~
+------
 
-* ...
+par Maxime Hanquier @Maxime Hanquier
+------
+
+&
+par Martin François @tinmar
+------
+
+&
+Xavier Refour @Xavier.Refour
+------
+![](https://66.media.tumblr.com/529adc32a0d3b27ab685ca288e369deb/tumblr_mt5xdbV1uO1s2axdno1_500.gif)
